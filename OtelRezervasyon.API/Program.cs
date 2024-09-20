@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using OtelRezervasyon.Persistence;
 using OtelRezervasyon.Application;
+//OSMANİBOOooooooo
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
