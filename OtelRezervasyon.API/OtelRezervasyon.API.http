@@ -1,0 +1,6 @@
+@OtelRezervasyon.API_HostAddress = http://localhost:5237
+
+GET {{OtelRezervasyon.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

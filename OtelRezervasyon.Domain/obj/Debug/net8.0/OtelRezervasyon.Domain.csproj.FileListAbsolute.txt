@@ -1,0 +1,11 @@
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\bin\Debug\net8.0\OtelRezervasyon.Domain.deps.json
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\bin\Debug\net8.0\OtelRezervasyon.Domain.dll
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\bin\Debug\net8.0\OtelRezervasyon.Domain.pdb
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\OtelRezervasyon.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\OtelRezervasyon.Domain.AssemblyInfoInputs.cache
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\OtelRezervasyon.Domain.AssemblyInfo.cs
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\OtelRezervasyon.Domain.csproj.CoreCompileInputs.cache
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\OtelRezervasyon.Domain.dll
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\refint\OtelRezervasyon.Domain.dll
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\OtelRezervasyon.Domain.pdb
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Domain\obj\Debug\net8.0\ref\OtelRezervasyon.Domain.dll
