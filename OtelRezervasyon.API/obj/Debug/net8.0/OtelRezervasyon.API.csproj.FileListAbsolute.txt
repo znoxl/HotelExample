@@ -7,6 +7,8 @@ C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\OtelRezerva
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\OtelRezervasyon.API.pdb
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
@@ -61,6 +63,7 @@ C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\OtelRezerva
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\OtelRezervasyon.API.csproj.CoreCompileInputs.cache
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\OtelRezervasyon.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\OtelRezervasyon.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\OtelRezervasyon.API.sourcelink.json
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.API\obj\Debug\net8.0\staticwebassets\msbuild.OtelRezervasyon.API.Microsoft.AspNetCore.StaticWebAssets.props

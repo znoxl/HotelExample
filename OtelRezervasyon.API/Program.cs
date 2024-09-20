@@ -1,40 +1,49 @@
 using Microsoft.EntityFrameworkCore;
 using OtelRezervasyon.Persistence;
-
+using OtelRezervasyon.Application;
 var builder = WebApplication.CreateBuilder(args);
 
-// Veritabanı bağlantısını ayarlama
-builder.Services.AddDbContext<OtelRezervasyonDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// CORS servisini ekleme
-builder.Services.AddCors(options =>
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<OtelRezervasyonDbContext>(opt =>
 {
-    options.AddPolicy("CorsPolicy", builder =>
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy", policy =>
     {
-        builder.AllowAnyOrigin()    // İsteğe bağlı: belirli bir kaynağa izin verebilirsiniz
-               .AllowAnyMethod()    // İsteğe bağlı: GET, POST gibi belirli metodlara izin verebilirsiniz
-               .AllowAnyHeader();   // İsteğe bağlı: Belirli başlıklara izin verebilirsiniz
+        policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
     });
 });
 
-// Swagger/OpenAPI ayarları
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Add controllers
+builder.Services.AddControllers();
+
+// Add authentication and authorization
+builder.Services.AddAuthorization();
+
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(List.Handler).Assembly));
 
 var app = builder.Build();
 
-// Geliştirme ortamı için Swagger'ı etkinleştirme
+// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors("CorsPolicy"); //tarayıcının güvenmesi için ara katman olarakta ekledik bu cors hizmetini
 
-// CORS middleware'i ekleme (Doğru sırada yer almalı)
-app.UseCors("CorsPolicy"); // CorsPolicy adındaki politikayı kullanıyoruz
+app.UseAuthentication(); // Kimlik doğrulama middleware ekle
+app.UseAuthorization(); //Sonra yetkilendirme gelir.
+
+app.MapControllers();
+
 
 // Seed verilerini eklemek için gerekli kodu ekleyin
 using (var scope = app.Services.CreateScope())
@@ -52,24 +61,4 @@ using (var scope = app.Services.CreateScope())
         logger.LogError(ex, "An error occurred while seeding the database.");
     }
 }
-
-var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast(DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                             Random.Shared.Next(-20, 55),
-                             summaries[Random.Shared.Next(summaries.Length)]))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
-
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

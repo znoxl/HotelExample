@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using OtelRezervasyon.Domain;
-
 namespace OtelRezervasyon.Persistence
 {
     public class OtelRezervasyonDbContext : DbContext

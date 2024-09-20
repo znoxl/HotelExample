@@ -2,12 +2,15 @@ C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\bin\Debug\net8.0\Ote
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\bin\Debug\net8.0\OtelRezervasyon.Application.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\bin\Debug\net8.0\OtelRezervasyon.Application.pdb
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\bin\Debug\net8.0\OtelRezervasyon.Domain.dll
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\bin\Debug\net8.0\OtelRezervasyon.Persistence.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\bin\Debug\net8.0\OtelRezervasyon.Domain.pdb
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\bin\Debug\net8.0\OtelRezervasyon.Persistence.pdb
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelRezervasyon.Application.csproj.AssemblyReference.cache
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelRezervasyon.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelRezervasyon.Application.AssemblyInfoInputs.cache
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelRezervasyon.Application.AssemblyInfo.cs
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelRezervasyon.Application.csproj.CoreCompileInputs.cache
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelRezervasyon.Application.sourcelink.json
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelReze.67DC3B8A.Up2Date
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\OtelRezervasyon.Application.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Application\obj\Debug\net8.0\refint\OtelRezervasyon.Application.dll

@@ -53,6 +53,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -120,6 +124,9 @@
             "projectReferences": {
               "C:\\Users\\znoxl\\otel-rezervasyon\\OtelRezervasyon.Domain\\OtelRezervasyon.Domain.csproj": {
                 "projectPath": "C:\\Users\\znoxl\\otel-rezervasyon\\OtelRezervasyon.Domain\\OtelRezervasyon.Domain.csproj"
+              },
+              "C:\\Users\\znoxl\\otel-rezervasyon\\OtelRezervasyon.Persistence\\OtelRezervasyon.Persistence.csproj": {
+                "projectPath": "C:\\Users\\znoxl\\otel-rezervasyon\\OtelRezervasyon.Persistence\\OtelRezervasyon.Persistence.csproj"
               }
             }
           }
@@ -138,6 +145,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

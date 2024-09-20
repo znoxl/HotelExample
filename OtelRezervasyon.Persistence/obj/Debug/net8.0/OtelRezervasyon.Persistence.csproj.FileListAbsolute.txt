@@ -9,6 +9,7 @@ C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\Ote
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\OtelRezervasyon.Persistence.AssemblyInfoInputs.cache
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\OtelRezervasyon.Persistence.AssemblyInfo.cs
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\OtelRezervasyon.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\OtelRezervasyon.Persistence.sourcelink.json
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\OtelReze.E3EF06BB.Up2Date
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\OtelRezervasyon.Persistence.dll
 C:\Users\znoxl\otel-rezervasyon\OtelRezervasyon.Persistence\obj\Debug\net8.0\refint\OtelRezervasyon.Persistence.dll
