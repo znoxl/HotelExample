@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using OtelRezervasyon.Persistence;
 using OtelRezervasyon.Application;
 //OSMANİBOOooooooo
+//xdxdxd
 
 var builder = WebApplication.CreateBuilder(args);
 
