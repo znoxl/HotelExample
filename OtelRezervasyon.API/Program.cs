@@ -3,6 +3,7 @@ using OtelRezervasyon.Persistence;
 using OtelRezervasyon.Application;
 //OSMANİBOOooooooo
 //xdxdxd
+//tekrar gönderdim pull yapt
 
 var builder = WebApplication.CreateBuilder(args);
 
